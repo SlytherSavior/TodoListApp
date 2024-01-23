@@ -38,6 +38,32 @@ Before you begin, ensure you have the following installed:
 
    The TodoList app should now be running on your localhost.
 
+
+### Usage
+
+1. **Start the application:**
+
+    ```bash
+    npm start
+    ```
+
+    This command will start the TodoList app on your localhost.
+
+2. **Open your web browser and go to:**
+
+    ```
+    http://localhost:3000
+    ```
+
+    The TodoList app should now be running, and you can access it through your web browser.
+
+3. **View and Manage Tasks:**
+
+    - Click on the "Add Task" button to create a new task.
+    - You can mark a task as completed by clicking the checkbox next to it.
+
+
+
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, bug reports, or improvements, feel free to open an issue or create a pull request.
