@@ -8,13 +8,15 @@
     
   </div>
   <div class="box">
-    <% for(let i = 0 ; i < newListItem.length; i++){ %>
+    <% for(let i = 0; i < newListItem.length; i++){ %>
       <div class="item">
-        <input type="checkbox">
-        <p><%= newListItem[i] %></p>
+          <input type="checkbox" name="item<%= i %>" <%= newListItem[i].checked ? 'checked' : '' %> onchange="document.getElementById('form<%= i %>').submit();">
+          <p><%= newListItem[i].text %></p>
+          <form id="form<%= i %>" action="/check" method="POST" style="display: none;">
+              <input type="hidden" name="itemIndex" value="<%= i %>">
+          </form>
       </div>
-      
-      <% } %>
+  <% } %>
       
       
       
