@@ -10,7 +10,6 @@ A simple web application for managing your to-do list. This app allows users to 
 - [Features](#features)
 - [License](#license)
 - [Contributing](#contributing)
-- [Acknowledgements](#acknowledgements)
 
 ## Technologies
 
@@ -31,9 +30,9 @@ This project is implemented using Node.js and Express.js. Follow the steps below
    
 2. Navigate to the project directory:
 
-  ```bash
-  cd todo-list-app
-  ```
+   ```bash
+   cd todo-list-app
+   ```
 3. Start the server:
 
    ```bash
@@ -63,8 +62,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Contributions are welcome! Fork the project, make your changes, and submit a pull request.
 
-## Acknowledgements
 
-- Special thanks to [Your Name] for inspiration and guidance.
-- Icons by [Font Awesome](https://fontawesome.com/).
 
